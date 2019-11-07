@@ -2183,7 +2183,7 @@ function stringify(obj, noDeref) {
  *
  */
 function isSafeLong(n) {
-  return n >= -9007199254740990 && n <= 9007199254740990;
+  return n >= -9007199254740990000 && n <= 9007199254740990000;
 }
 
 /**
